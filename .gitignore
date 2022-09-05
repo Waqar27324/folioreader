@@ -1,23 +1,53 @@
-# Compiled class file
-*.class
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
 
-# Log file
-*.log
+# Custom
+_site
 
-# BlueJ files
-*.ctxt
+# Ant
+MANIFEST.MF
+./*.jar
+build.num
+build
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# ADT
+.classpath
+.project
+.settings
+local.properties
+bin
+gen
+_layouts
+proguard.cfg
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# OSX
+.DS_Store
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Github
+gh-pages
+
+# Gradle
+.gradle
+build
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+out
+.idea
+
+# Maven
+target
+release.properties
+pom.xml.*
+
+# Readium DRM LCP
+liblcp.aar
